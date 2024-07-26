@@ -16,6 +16,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "backend/controllers/authController.js", "backend/controllers/taskController.js", "backend/models/Task.js", "backend/models/User.js", "backend/routes/auth.js", "backend/routes/task.js"],
   "exclude": ["node_modules"]
 }
